@@ -33,7 +33,7 @@ class Student {
   @override
   String toString() {
     // TODO: implement toString
-    return 'name:$name,id:$id,mark:$mark,subjects:$subjects,subject:$subject';
+    return 'nsdsddsame:$name,id:$id,mark:$mark,subjects:$subjects,subject:$subject';
   }
 
   // هنا عملنا تحويل ل list

@@ -1,15 +1,23 @@
 {
-
-  "id":"1",
+  "id": "1",
   "name": "ahed",
   "mark": 95,
   "subjects": [
-    "arabic",
-    "English",
-    "turkey"
-  ],
-  "subject": {
-    "id": 100,
-    "score": 20
-  }
+    {
+      "name": "arabic",
+      "id": 100,
+      "score": 99
+    },
+    {
+      "name": "English",
+      "id": 102,
+      "score": 79
+    },
+    {
+      "name": "turkey",
+      "id": 103,
+      "score": 60
+    }
+  ]
+
 }

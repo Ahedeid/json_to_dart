@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
     String jsonString = await _lodeAssets();
     var parsedJson = jsonDecode(jsonString);
     Student student = Student.fromJson(parsedJson);
-    print(student.toString());
+    print(student);
   }
 
   @override

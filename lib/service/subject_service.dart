@@ -6,13 +6,15 @@ class Subject{
 
   int id ;
   int score;
+  String name;
 
-  Subject({required this.id,required this.score});
+  Subject({required this.name,required this.id,required this.score});
 
   factory Subject.fromJson(Map<String,dynamic> parseJson){
     return Subject(
         id: parseJson['id'],
-        score: parseJson['score']
+        score: parseJson['score'],
+        name: parseJson['name']
     );
   }
 
